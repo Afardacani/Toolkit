@@ -1,0 +1,52 @@
+body {
+  background-color: #000000;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+  color:white;
+  overflow-x:scroll;
+  overflow-y: scroll;
+  
+}
+
+#body {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header {
+  font-size: 40px;
+  font-weight: bold;
+  top: 20px;
+  text-align: center;
+}
+
+.legend {
+  position:relative;
+  top: 0px;
+  right: 0;
+  width: 470px;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #eaff03;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 12px;
+  fill: rgb(255, 255, 255);
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
